@@ -24,3 +24,5 @@ make test
 - Trains a logistic regression on denoised labels
 
 - Reports test accuracy and leave-one-LF-out ablation
+
+__NOTE__ : First run tries to download 20 Newsgroups; if SSL blocks it, the code uses a synthetic local dataset so everything still works.
